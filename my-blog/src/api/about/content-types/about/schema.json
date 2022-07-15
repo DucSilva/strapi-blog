@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about",
     "pluralName": "abouts",
-    "displayName": "About"
+    "displayName": "About",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,17 +16,31 @@
       "type": "string"
     },
     "avatar": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "Description": {
       "type": "string"
+    },
+    "skills": {
+      "type": "enumeration",
+      "enum": [
+        "html",
+        "css",
+        "scss",
+        "javascript",
+        "react js",
+        "next js"
+      ],
+      "default": "html",
+      "required": false
     }
   }
 }
