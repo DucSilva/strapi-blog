@@ -30,17 +30,7 @@
       "type": "string"
     },
     "skills": {
-      "type": "enumeration",
-      "enum": [
-        "html",
-        "css",
-        "scss",
-        "javascript",
-        "react js",
-        "next js"
-      ],
-      "default": "html",
-      "required": false
+      "type": "json"
     }
   }
 }
