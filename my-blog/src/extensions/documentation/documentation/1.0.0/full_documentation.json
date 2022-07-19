@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-15T09:14:56.834Z"
+    "x-generation-date": "2022-07-19T14:51:29.110Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -156,6 +156,12 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "ava": {
+                "type": "string"
+              },
+              "cv": {
+                "type": "string"
               }
             }
           }
@@ -1359,6 +1365,12 @@
                                       }
                                     }
                                   },
+                                  "ava": {
+                                    "type": "string"
+                                  },
+                                  "cv": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -2052,6 +2064,12 @@
                           }
                         }
                       }
+                    },
+                    "ava": {
+                      "type": "string"
+                    },
+                    "cv": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -3325,6 +3343,12 @@
                                     }
                                   }
                                 },
+                                "ava": {
+                                  "type": "string"
+                                },
+                                "cv": {
+                                  "type": "string"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -4018,6 +4042,12 @@
                         }
                       }
                     }
+                  },
+                  "ava": {
+                    "type": "string"
+                  },
+                  "cv": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
